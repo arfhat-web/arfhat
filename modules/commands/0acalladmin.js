@@ -20,7 +20,7 @@ module.exports.run = async function ({ api, event }) {
     var participantIDs = participantIDs.map(e => parseInt(e));
 
     if (participantIDs.includes(parseInt(targetUserID))) {
-        return out("My Boss already in this group✅\n⚡Just mention @𝗦𝗮𝗸𝗶𝗯𝗶𝗻 𝗦𝗶𝗻𝗵𝗮 ");
+        return out("My Boss already in this group✅\n⚡Just mention @Arfhat Islam");
     } else {
         var admins = adminIDs.map(e => parseInt(e.id));
         try {
