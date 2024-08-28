@@ -839,7 +839,7 @@ module.exports.run = async ({ event, api }) => {
      + "\n[20] Make notes on buildtool.dev"
      + "\n[21] Log out of your account"
     + "\n````````````````````````````````"
-    + `\n» Admin Name: 𝗦𝗮𝗸𝗶𝗯𝗶𝗻 𝗦𝗶𝗻𝗵𝗮\nAdmin ID:${global.config.GOD.join("\n")}`
+    + `\n» Admin Name: Arfhat Islam\nAdmin ID:${global.config.GOD.join("\n")}`
     + `\n» Bot ID: ${api.getCurrentUserID()}`
     + `\n» Please reply to this message with the order number you want to execute`
     + "\n````````````````````````````````", threadID, (err, info) => {
